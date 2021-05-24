@@ -1,0 +1,29 @@
+nav {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    box-shadow: 0px 1px 6px #00000014;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--navbar-links-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.logo {
+    transition: 0.2s all;
+}
+
+.logo:hover {
+    transform: scale(0.9, 0.9);
+}
+
+.icons {
+    width: 30px;
+}
