@@ -1,16 +1,3 @@
-:root {
-  --lightgreen: #EEF0ED;
-  --darkgreen: #2E3E39;
-  --paletsgreen: #E8F2EA;
-}
-
-body {
-  font-family: 'Mulish', sans-serif;
-}
-.text-title {
-  font-family: 'Mulish', sans-serif;
-}
-
 .picture {
   width: 50%;
 }
