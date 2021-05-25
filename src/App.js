@@ -13,7 +13,6 @@ function App() {
         <div className="maincategory-grid">
           <MainCategory
               title="Inneplanter"
-              imageUrl="alove-vera.jpg"
           />
         </div>
 
