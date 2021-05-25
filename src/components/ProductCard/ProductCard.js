@@ -1,19 +1,16 @@
 import { Link } from 'react-router-dom';
-import './ProduktCard.css';
+import './ProductCard.css';
 
-function ProduktCard() {
+function ProductCard() {
   return (
-    <nav>
-        <Link to="/" className="nav-link">Oppskrifter</Link>
-        <Link to="/">
-          <img src="images/icon-teapot.png" alt="Oppskrift" className="logo"/>
-        </Link>
-        <Link to="/about" className="nav-link">Om ideen</Link>
-
-        <img src={`images/${props.imageUrl}`} alt={props.title}/>
-
-    </nav>
+    <main> 
+        <Link className="produkt" to="/ProductPage">Strecilia</Link>
+        <h1>Strelitzia</h1>
+        <p>Høyde 75cm</p>
+        <p>Lettstelt</p>
+        <img src="images/plantmeg-logo.png" alt="søke" className="logo"/>
+    </main>
   );
 }
 
-export default ProduktCard;
+export default ProductCard;
