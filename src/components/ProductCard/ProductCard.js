@@ -5,9 +5,38 @@ function ProductCard() {
   return (
     <main> 
         <Link className="product" to="/ProductPage">Strecilia</Link>
-        <h1>Strelitzia</h1>
-        <p>Høyde 75cm</p>
-        <p>Lettstelt</p>
+        <ProductCard
+            name="Kaktus1"
+            imageUrl="plants.jpg"
+            title="UtePlanter"
+            price="150kr"
+            height="75 cm"
+            properties="Lettstelt"
+        />
+         <ProductCard
+            name="Kaktus2"
+            imageUrl="plants.jpg"
+            title="UtePlanter"
+            price="150kr"
+            height="75 cm"
+            properties="Lettstelt"
+        />
+         <ProductCard
+            name="Kaktus3"
+            imageUrl="plants.jpg"
+            title="UtePlanter"
+            price="150kr"
+            height="75 cm"
+            properties="Lettstelt"
+        />
+         <ProductCard
+            name="Kaktus4"
+            imageUrl="plants.jpg"
+            title="UtePlanter"
+            price="150kr"
+            height="75 cm"
+            properties="Lettstelt"
+        />
     </main>
   );
 }

@@ -4,17 +4,18 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar'
-import Footer from './components/Footer/Footer'
 import CartPage from './pages/CartPage';
 import ErrorPage from './pages/ErrorPage';
-
+import Footer from './components/Footer/Footer'
+import ProductPage from './pages/ProductPage';
 
 ReactDOM.render(
   <BrowserRouter>
     <NavBar />
     <Switch>
       <Route path="/" component={App} exact />
-      <Route path="/cartpage" component={CartPage} />    
+      <Route path="/handlekurv" component={CartPage} />  
+      <Route path="/produkt" component={ProductPage} /> 
       <Route component={ErrorPage} />  
     </Switch>
     <Footer />

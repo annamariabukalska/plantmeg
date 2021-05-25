@@ -1,5 +1,5 @@
 import './App.css';
-// import MainCategory from './components/MainCategory/MainCategory';
+import MainCategory from './components/MainCategory/MainCategory';
 import ProductCard from './components/ProductCard/ProductCard';
 
 function App() {
@@ -10,38 +10,15 @@ function App() {
       <p className="subtitle">Vi har stort utvalg av sesongens planter, bli inspirert av naturen</p>
 
       <div className="content-inset">
-          {
-            /*
-            <div className="maincategory-grid">
-            <MainCategory
-              title="Inneplanter"
-            />
-            <MainCategory
-              title="UtePlanter"
-            />
-            <MainCategory
-              title="Potter"
-            />
-              <MainCategory
-              title="Dyrk selv"
-            />
-              <MainCategory
-              title="Jord"
-            />
-            */
-          }
+        <div className="maincategory-grid">
+          <MainCategory />
         </div>
+
         <div className="productcard-grid">
-          <ProductCard
-            name="Kaktus"
-            imageUrl="plants.jpg"
-            title="UtePlanter"
-            price="150kr"
-            height="75 cm"
-            properties="Lettstelt"
-          />
+          <ProductCard />
         </div>
-    </main>
+    </div>
+  </main>
   );
 }
 
