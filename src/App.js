@@ -11,11 +11,20 @@ function App() {
 
       <div className="content-inset">
         <div className="maincategory-grid">
-          <MainCategory />
+          <MainCategory
+              title="Inneplanter"
+              imageUrl="alove-vera.jpg"
+          />
         </div>
 
         <div className="productcard-grid">
-          <ProductCard />
+          <ProductCard
+            title="UtePlanter"
+            imageUrl="plants.jpg"
+            price="150"
+            subtitle1="75 cm"
+            subtitle2="Lettstelt"
+        />
         </div>
     </div>
   </main>

@@ -1,44 +1,16 @@
-import { Link } from 'react-router-dom';
 import './ProductCard.css';
+// import { Link } from 'react-router-dom';
 
-function ProductCard() {
+function ProductCard(props) {
   return (
-    <main> 
-        <Link className="product" to="/ProductPage">Strecilia</Link>
-        <ProductCard
-            name="Kaktus1"
-            imageUrl="plants.jpg"
-            title="UtePlanter"
-            price="150kr"
-            height="75 cm"
-            properties="Lettstelt"
-        />
-         <ProductCard
-            name="Kaktus2"
-            imageUrl="plants.jpg"
-            title="UtePlanter"
-            price="150kr"
-            height="75 cm"
-            properties="Lettstelt"
-        />
-         <ProductCard
-            name="Kaktus3"
-            imageUrl="plants.jpg"
-            title="UtePlanter"
-            price="150kr"
-            height="75 cm"
-            properties="Lettstelt"
-        />
-         <ProductCard
-            name="Kaktus4"
-            imageUrl="plants.jpg"
-            title="UtePlanter"
-            price="150kr"
-            height="75 cm"
-            properties="Lettstelt"
-        />
-    </main>
+    <div className="productcard">
+      <img className="product-picture" src="./images/alove-vera.jpg" alt=""/>
+      <h2>{props.title}</h2>
+      <p className="product-price" >{props.price},-</p>
+      <p className="product-subtitle">{props.subtitle1}</p>
+      <p className="product-subtitle">{props.subtitle2}</p>
+
+    </div>
   );
 }
-
 export default ProductCard;
