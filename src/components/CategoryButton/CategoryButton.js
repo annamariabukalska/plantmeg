@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
-import './CategoryButton.css';
+import { Link } from "react-router-dom";
+import "./CategoryButton.css";
 
 function CategoryButton(props) {
   return (
-    <main> 
+    <main>
       <Link className="product" to="/produkt">
         {props.title}
       </Link>
@@ -11,6 +11,3 @@ function CategoryButton(props) {
   );
 }
 export default CategoryButton;
-
-
-

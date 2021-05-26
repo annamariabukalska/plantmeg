@@ -1,9 +1,9 @@
-import './ProductPage.css';
+import "./ProductPage.css";
 
 function ProductPage() {
   return (
     <div>
-        <p>Produkt kommer her straks</p>
+      <p>Produkt kommer her straks</p>
     </div>
   );
 }

@@ -1,10 +1,8 @@
 function CartPage() {
-    return (
-      <main>
+  return (
+    <main>
       <h1>Handlekurv kommer her</h1>
-  
-      </main>
-    );
-  }
-  export default CartPage;
-  
+    </main>
+  );
+}
+export default CartPage;
