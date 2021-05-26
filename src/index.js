@@ -8,7 +8,7 @@ import CartPage from "./pages/CartPage";
 import ErrorPage from "./pages/ErrorPage";
 import Footer from "./components/Footer/Footer";
 import ProductPage from "./pages/ProductPage";
-import ArticleCard from "./components/ArticleCard/ArticleCard";
+import CategoryPage from "./pages/CategoryPage";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -17,7 +17,7 @@ ReactDOM.render(
       <Route path="/" component={App} exact />
       <Route path="/handlekurv" component={CartPage} />
       <Route path="/produkt" component={ProductPage} />
-      <Route path="/artikel" component={ArticleCard} />
+      <Route path="/kategori" component={CategoryPage} />
       <Route component={ErrorPage} />
     </Switch>
     <Footer />

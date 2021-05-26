@@ -12,7 +12,7 @@ function NavBar() {
           <input type="text" placeholder="Søk" className="search-box"></input>
         </label>
       </form>
-      <Link to="/">
+      <Link to="/handlekurv">
         <img
           src="images/shopping-cart.png"
           alt="shoping-cart"
