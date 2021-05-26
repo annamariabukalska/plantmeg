@@ -2,9 +2,8 @@
   width: 50%;
 }
 
-.info {
+.content-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   background: var(--paletsgreen);
-  /* color: ; */
 }

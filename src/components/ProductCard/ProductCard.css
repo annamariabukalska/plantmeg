@@ -1,7 +1,8 @@
 .productcard{
     border: 1px solid black;
-    max-width: 400px;
+    max-width: 250px;
     text-decoration: none;
+    font-size: .8rem;
 }
 
 .product-subtitle {
@@ -9,5 +10,5 @@
 }
 
 .product-picture {
-    max-width: 80%;
+    max-width: 100%;
 }

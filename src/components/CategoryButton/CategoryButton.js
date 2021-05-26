@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import './MainCategory.css';
+import './CategoryButton.css';
 
-function MainCategory(props) {
+function CategoryButton(props) {
   return (
     <main> 
       <Link className="product" to="/produkt">
@@ -10,7 +10,7 @@ function MainCategory(props) {
     </main>
   );
 }
-export default MainCategory;
+export default CategoryButton;
 
 
 

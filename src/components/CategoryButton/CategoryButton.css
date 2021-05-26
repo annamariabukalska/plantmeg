@@ -1,0 +1,12 @@
+.product{
+    background: var(--lightgreen);
+    border-radius: 20px;
+    color: var(--darkgreen);
+    text-decoration: none;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+.product:hover{
+    background: var(--darkgreen);
+    color: var(--lightgreen);
+}

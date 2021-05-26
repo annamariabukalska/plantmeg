@@ -1,0 +1,24 @@
+.articlecard{
+    border: 1px solid black;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.articlecard-subtitle {
+    color: var(--gray);
+}
+
+.product-picture {
+    max-width: 100%;
+}
+
+.video-button {
+    border: 2px solid var(--darkgreen);
+    border-radius: 10px;
+    max-width: 100px;
+    padding: 8px 8px;
+    color: var(--darkgreen);
+
+
+}
