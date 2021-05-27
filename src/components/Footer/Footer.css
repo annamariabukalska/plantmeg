@@ -1,12 +1,39 @@
 footer {
     background: var(--darkgreen);
     color: var(--lightgreen);
-    width: 100vw;
-    display: grid;
-    padding: 48px 0;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    row-gap: 1em;}
+    row-gap: 1em;
+    margin: 0em 6em;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-icons .icon {
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 700px) {
+    .footer-content {
+        margin: 0em 1em;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .footer-icons {
+        justify-content: center;
+    }
+}
 
 .icon {
     width: 50px;

@@ -1,6 +1,4 @@
-.articlecard{
-    border: 1px solid black;
-    max-width: 200px;
+.articlecard {
     text-decoration: none;
     font-size: .8rem;
 }
@@ -9,8 +7,9 @@
     color: var(--gray);
 }
 
-.product-picture {
+.article-picture {
     max-width: 100%;
+    border-radius: 10px;
 }
 
 .video-button {

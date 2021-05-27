@@ -27,6 +27,7 @@ function App() {
           <CategoryButton title="Jord" />
         </div>
 
+        <h2>Populært i dag</h2>
         <div className="productcard-grid">
           <ProductCard
             title="Strelitzia 'Nicolai"
@@ -54,19 +55,22 @@ function App() {
           />
         </div>
         <div>
-          <h1>Godt å vite</h1>
+          <h2>Godt å vite</h2>
           <div className="articlecard-grid">
             <ArticleCard
               name="Hvordan vanne blomster?"
-              subtitle1="Er du nysjerig på hvordan skal man vanne blomster?"
+              subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
+              link="https://www.youtube.com/"
             />
             <ArticleCard
               name="Hvordan vanne blomster?"
-              subtitle1="Er du nysjerig på hvordan skal man vanne blomster?"
+              subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
+              link="https://www.youtube.com/"
             />
             <ArticleCard
               name="Hvordan vanne blomster?"
-              subtitle1="Er du nysjerig på hvordan skal man vanne blomster?"
+              subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
+              link="https://www.youtube.com/"
             />
           </div>
         </div>
