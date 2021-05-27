@@ -2,16 +2,14 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="adresse">
-        <p>Plantmeg</p>
+        <h3>Plantmeg</h3>
         <p>Planteveien 35, 1155 Plantejord</p>
         <p>
           Sentralbord: 95 99 44 83 E-post: post@plantmeg.no Org nr: NO 544 286
           455
         </p>
-      </div>
-      <div>
         <img
           src={"images/icon-Instagram.png"}
           alt="instagram"

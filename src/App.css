@@ -2,8 +2,21 @@
   width: 100%;
 }
 
-.content-box {
+.featured-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   background: var(--paletsgreen);
+}
+
+.featured-section .content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.content-box .subtitle {
+  max-width: 400px;
 }

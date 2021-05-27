@@ -1,13 +1,10 @@
-import { Link } from "react-router-dom";
 import "./Button.css";
 
 function Button(props) {
   return (
-    <main>
-      <Link className="button" to="/produkt">
+    <button className="button">
         {props.title}
-      </Link>
-    </main>
+    </button>
   );
 }
 export default Button;

@@ -8,14 +8,14 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <main>
-      <div className="content-box">
+      <div className="featured-section">
         <img src={"images/plants.png"} alt="plants" className="picture" />
+        <div className="content-box">
         <h1 className="title">Planter</h1>
         <p className="subtitle">
-          Vi har stort utvalg av sesongens planter, bli inspirert av naturen
+          Vi har et stort utvalg av sesongens planter, bli inspirert av naturen og få rask levering 🏡
         </p>
-        <div className="CTA-button">
-          <Button title="Se sesongens planter" />
+        <Button title="Se sesongens planter" />
         </div>
       </div>
       <div className="content-inset">

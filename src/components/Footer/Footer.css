@@ -3,12 +3,17 @@ footer {
     color: var(--lightgreen);
     width: 100vw;
     display: flex;
-    flex-direction: column;
     padding: 48px 0;
-    justify-content: center;
-    text-align: left;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-grow: 3;
 }
 
 .icon {
     width: 50px;
+}
+@media (min-width: 700px) {
+    footer {
+      flex-direction: column;
+    }
 }
