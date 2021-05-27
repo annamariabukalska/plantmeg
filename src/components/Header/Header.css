@@ -1,12 +1,14 @@
 .vis-mer{
     background: var(--lightgreen);
-    border-radius: 20px;
     color: var(--darkgreen);
+    border-radius: 20px;
     text-decoration: none;
-    padding: 10px 24px;
+    padding: 10px 300px;
     cursor: pointer;
 }
 .vis-mer:hover{
-    background: var(--darkgreen);
-    color: var(--lightgreen);
+    background: white;
+    border: 2px solid var(--darkgreen);
+    color: var(--darkgreen);
+    font-weight: bold;
 }
