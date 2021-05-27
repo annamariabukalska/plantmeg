@@ -32,10 +32,16 @@
 }
 
 /* Produkt Grid */ 
-
 .productcard-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  column-gap: .3em;
+  column-gap: .1em;
+  row-gap: 1em;
+}
+
+/* Artikel Grid */ 
+.articlecard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   row-gap: 1em;
 }

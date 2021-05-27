@@ -2,18 +2,17 @@ footer {
     background: var(--darkgreen);
     color: var(--lightgreen);
     width: 100vw;
-    display: flex;
+    display: grid;
     padding: 48px 0;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-grow: 3;
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 1em;}
 
 .icon {
     width: 50px;
 }
-@media (min-width: 700px) {
-    footer {
-      flex-direction: column;
-    }
+
+.icon2 {
+    width: 100px;
+    padding: 10px;
 }

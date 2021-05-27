@@ -60,6 +60,14 @@ function App() {
               name="Hvordan vanne blomster?"
               subtitle1="Er du nysjerig på hvordan skal man vanne blomster?"
             />
+            <ArticleCard
+              name="Hvordan vanne blomster?"
+              subtitle1="Er du nysjerig på hvordan skal man vanne blomster?"
+            />
+            <ArticleCard
+              name="Hvordan vanne blomster?"
+              subtitle1="Er du nysjerig på hvordan skal man vanne blomster?"
+            />
           </div>
         </div>
         <Link to={"/kategori"}>Test: Link til kategori</Link>
