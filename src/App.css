@@ -20,3 +20,14 @@
 .content-box .subtitle {
   max-width: 400px;
 }
+
+.categorybutton-grid {
+  display: grid;
+  margin-bottom: 1rem;
+}
+
+/* Produkt Grid */ 
+
+.productcard-grid {
+  display: grid;
+}

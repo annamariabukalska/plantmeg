@@ -21,6 +21,10 @@ function App() {
       <div className="content-inset">
         <div className="categorybutton-grid">
           <CategoryButton title="Inneplanter" />
+          <CategoryButton title="Uteplanter" />
+          <CategoryButton title="Potter" />
+          <CategoryButton title="Dyrke selv" />
+          <CategoryButton title="Jord" />
         </div>
 
         <div className="productcard-grid">
@@ -28,7 +32,13 @@ function App() {
             title="Strelitzia 'Nicolai"
             imageUrl="plants.jpg"
             price="150"
-            subtitle2="Lettstelt"
+            subtitle1="Lettstelt"
+          />
+          <ProductCard
+            title="Monstera"
+            imageUrl="plants.jpg"
+            price="1150"
+            subtitle1="Test"
           />
         </div>
         <div>

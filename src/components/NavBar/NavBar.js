@@ -12,17 +12,18 @@ function NavBar() {
           <input type="text" placeholder="Søk" className="search-box"></input>
         </label>
       </form>
+      <div>
       <Link to="/handlekurv">
         <img
           src="images/shopping-cart.png"
           alt="shoping-cart"
           className="icons"
         />
-        0
       </Link>
       <Link to="/">
         <img src="images/heart.png" alt="wish" className="icons" />
       </Link>
+      </div>
     </nav>
   );
 }

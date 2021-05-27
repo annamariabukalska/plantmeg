@@ -1,19 +1,9 @@
 nav {
     background: #ffffff;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     align-items: center;
-    justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-size: 1rem;
-    box-shadow: 0px 1px 6px #00000014;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: var(--navbar-links-color);
-    font-weight: bold;
-    font-size: 1.1rem;
 }
 
 .logo {
@@ -26,4 +16,9 @@ nav {
 
 .icons {
     width: 30px;
+}
+.search-box {
+    border: 1px solid var(--darkgreen);
+    padding: 6px;
+    border-radius: .4rem;;
 }
