@@ -40,6 +40,18 @@ function App() {
             price="1150"
             subtitle1="Test"
           />
+          <ProductCard
+            title="Monstera"
+            imageUrl="plants.jpg"
+            price="1150"
+            subtitle1="Test"
+          />
+          <ProductCard
+            title="Monstera"
+            imageUrl="plants.jpg"
+            price="1150"
+            subtitle1="Test"
+          />
         </div>
         <div>
           <h1>Godt å vite</h1>
