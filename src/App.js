@@ -9,7 +9,7 @@ function App() {
   return (
     <main>
       <div className="content-box">
-        <img src={"images/plants.jpg"} alt="plants" className="picture" />
+        <img src={"images/plants.png"} alt="plants" className="picture" />
         <h1 className="title">Planter</h1>
         <p className="subtitle">
           Vi har stort utvalg av sesongens planter, bli inspirert av naturen
