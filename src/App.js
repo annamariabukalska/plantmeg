@@ -60,16 +60,19 @@ function App() {
             <ArticleCard
               name="Hvordan vanne blomster?"
               subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
+              imageUrl="potter.jpg"
               link="https://www.youtube.com/"
             />
             <ArticleCard
               name="Hvordan vanne blomster?"
               subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
+              imageUrl="potter.jpg"
               link="https://www.youtube.com/"
             />
             <ArticleCard
               name="Hvordan vanne blomster?"
               subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
+              imageUrl="potter.jpg"
               link="https://www.youtube.com/"
             />
           </div>
