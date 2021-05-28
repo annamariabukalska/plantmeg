@@ -1,7 +1,18 @@
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import "./NavBar.css";
 
 function NavBar() {
+  const history = useHistory();
+
+  const [searchText, setText] = useState();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    history.push(`/sok/${searchText}`);
+  }
+
   return (
     <nav>
       <Link to="/">
@@ -26,9 +37,14 @@ function NavBar() {
           />
        </Link>
        </ul>
-      <form>
+      <form onSubmit={e => {handleSubmit(e)}}>
         <label>
-          <input type="text" placeholder="Søk" className="search-box"></input>
+          <input 
+            type="text" 
+            placeholder="Søk" 
+            className="search-box" 
+            onChange={e => setText(e.target.value)}
+            />
         </label>
       </form>
     </nav>

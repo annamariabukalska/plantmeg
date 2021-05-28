@@ -11,6 +11,7 @@ import ProductPage from "./pages/ProductPage/ProductPage";
 import CategoryPage from "./pages/CategoryPage/CategoryPage";
 import ArticlePage from "./pages/ArticlePage/ArticlePage";
 import NewsPage from "./pages/NewsPage/NewsPage";
+import SearchPage from "./pages/SearchPage/SearchPage";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path="/nyheter" component={NewsPage} />
       <Route path="/tips" component={ArticlePage} />
       <Route path="/produkt/:id" component={ProductPage} />
+      <Route path="/sok/:id" component={SearchPage} />
       <Route component={ErrorPage} />
     </Switch>
     <Footer />
