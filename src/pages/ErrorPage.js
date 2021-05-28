@@ -1,8 +1,8 @@
 function ErrorPage() {
   return (
-    <main>
+    <div className="content-inset">
       <h1>Siden ble ikke funnet</h1>
-    </main>
+    </div>
   );
 }
 export default ErrorPage;
