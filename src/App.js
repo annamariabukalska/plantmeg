@@ -1,6 +1,6 @@
 import "./App.css";
-import Button from "./components/Button/Button";
-import CategoryButton from "./components/CategoryButton/CategoryButton";
+import MainButton from "./components/Button/Button";
+import SecondaryButton from "./components/CategoryButton/CategoryButton";
 import ProductCard from "./components/ProductCard/ProductCard";
 import ArticleCard from "./components/ArticleCard/ArticleCard";
 
@@ -14,16 +14,16 @@ function App() {
         <p className="subtitle">
           Vi har et stort utvalg av sesongens planter, bli inspirert av naturen og få rask levering 🏡
         </p>
-        <Button title="Se sesongens planter" />
+        <MainButton title="Se sesongens planter" />
         </div>
       </div>
       <div className="content-inset">
         <div className="categorybutton-grid">
-          <CategoryButton title="Inneplanter" />
-          <CategoryButton title="Uteplanter" />
-          <CategoryButton title="Potter" />
-          <CategoryButton title="Dyrke selv" />
-          <CategoryButton title="Jord" />
+          <SecondaryButton title="Inneplanter" />
+          <SecondaryButton title="Uteplanter" />
+          <SecondaryButton title="Potter" />
+          <SecondaryButton title="Dyrke selv" />
+          <SecondaryButton title="Jord" />
         </div>
 
         <h2>Populært i dag</h2>

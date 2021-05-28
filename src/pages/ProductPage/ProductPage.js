@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./ProductPage.css";
-import Button from '../../components/Button/Button';
+import MainButton from '../../components/MainButton/MainButton';
 import InfoBox from "../../components/InfoBox/InfoBox";
 import { Link } from 'react-router-dom';
 
@@ -34,7 +34,7 @@ export default class ProductPage extends Component {
         <p>Fiolinfiken er en populær potteplante med lange, tynne harde blader. Den presenterer seg veldig elegant i rommet med store blader. Planten egner seg for folk som har travle dager. </p>
         <p>Ø19 cm</p>
         <p>299 kr</p>
-        <Button 
+        <MainButton 
           title="Legg til handlekurv"
           onClick={this.addToCart}
         />
