@@ -21,12 +21,15 @@ function CategoryPage() {
       <img className="img-category" src={"images/plante-category.png"} alt="plants" />
       <Header 
       title="Grønne planter"/>
+        <ProductCard />
       <Header 
       title="Blomstrende inneplanter"/>
+        <ProductCard />
       <Header 
-      title="Buketter og snittblomster"/>
+        title="Buketter"/>
+        <ProductCard />
       <Header 
-      title="Stiklinger fra potteplanter"/>
+        title="Stiklinger fra potteplanter"/>
       <ProductCard />
     </div>
   );

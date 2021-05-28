@@ -1,12 +1,3 @@
 .img-category {
-    width: 812px;
-    height: 204px;
-}
-
-@media screen and (max-width: 700px) {
-    .img-category {
-        width: 50px;
-        height: 44px;
-    }
-    
+    width: 100%;
 }

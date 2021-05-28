@@ -1,14 +1,17 @@
-.vis-mer{
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: var(--lightgreen);
     color: var(--darkgreen);
-    border-radius: 20px;
+    border-radius: 14px;
     text-decoration: none;
-    padding: 10px 300px;
-    cursor: pointer;
+    padding: 0px 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
-.vis-mer:hover{
-    background: white;
-    border: 2px solid var(--darkgreen);
+
+.header-vis-mer {
+    text-decoration: none;
     color: var(--darkgreen);
-    font-weight: bold;
 }
