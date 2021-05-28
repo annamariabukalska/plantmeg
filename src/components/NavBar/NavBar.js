@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav>
       <Link to="/">
-        <img src="images/plantmeg-logo.png" alt="søke" className="logo" />
+        <img src="/images/plantmeg-logo.png" alt="søke" className="logo" />
       </Link>
       <form>
         <label>
@@ -15,13 +15,13 @@ function NavBar() {
       <div>
       <Link to="/handlekurv">
         <img
-          src="images/shopping-cart.png"
+          src="/images/shopping-cart.png"
           alt="shoping-cart"
           className="icons"
         />
       </Link>
       <Link to="/">
-        <img src="images/heart.png" alt="wish" className="icons" />
+        <img src="/images/heart.png" alt="wish" className="icons" />
       </Link>
       </div>
     </nav>

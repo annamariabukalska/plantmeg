@@ -13,16 +13,16 @@ function Footer() {
           <div className="footer-icons">
             <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
               <img
-                src={"images/icon-Instagram.png"}
+                src={"/images/icon-instagram.png"}
                 alt="instagram"
                 className="icon"
               />
             </a>
             <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-              <img src={"images/icon-facebook.png"} alt="facebook" className="icon" />
+              <img src={"/images/icon-facebook.png"} alt="facebook" className="icon" />
             </a>
             <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
-              <img src={"images/icon-youtube.png"} alt="youtube" className="icon" />
+              <img src={"/images/icon-youtube.png"} alt="youtube" className="icon" />
             </a>
           </div>
         </div>
@@ -33,15 +33,15 @@ function Footer() {
         </div>
         <div>
           <h3>Levering</h3>
-          <img src={"images/icon-helthjem.png"} alt="helthjem" className="icon2" />
-          <img src={"images/icon-bring.png"} alt="bring" className="icon2" />
+          <img src={"/images/icon-helthjem.png"} alt="helthjem" className="icon2" />
+          <img src={"/images/icon-bring.png"} alt="bring" className="icon2" />
         </div>
         <div>
           <h3>Betaling</h3>
-          <img src={"images/icon-visa.png"} alt="visa" className="icon2" />
-          <img src={"images/icon-mastercard.png"} alt="mastercard" className="icon2" />
-          <img src={"images/icon-vipps.png"} alt="vipps" className="icon2" />
-          <img src={"images/icon-klarna.png"} alt="klarna" className="icon2" />
+          <img src={"/images/icon-visa.png"} alt="visa" className="icon2" />
+          <img src={"/images/icon-mastercard.png"} alt="mastercard" className="icon2" />
+          <img src={"/images/icon-vipps.png"} alt="vipps" className="icon2" />
+          <img src={"/images/icon-klarna.png"} alt="klarna" className="icon2" />
         </div>
       </div>
     </footer>

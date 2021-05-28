@@ -1,5 +1,5 @@
 import MainButton from "../../components/MainButton/MainButton";
-import SecondaryButton from "../../components/SecondaryButton/SeconadaryButton";
+import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
 
 
 function CartPage() {

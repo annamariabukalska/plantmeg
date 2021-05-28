@@ -1,14 +1,15 @@
 import "./App.css";
-import MainButton from "./components/Button/Button";
-import SecondaryButton from "./components/CategoryButton/CategoryButton";
+import MainButton from "./components/MainButton/MainButton";
+import SecondaryButton from "./components/SecondaryButton/SecondaryButton";
 import ProductCard from "./components/ProductCard/ProductCard";
 import ArticleCard from "./components/ArticleCard/ArticleCard";
+import { planter } from "./planter";
 
 function App() {
   return (
     <main>
       <div className="featured-section">
-        <img src={"images/plants.png"} alt="plants" className="picture" />
+        <img src={"/images/plants.png"} alt="plants" className="picture" />
         <div className="content-box">
         <h1 className="title">Planter</h1>
         <p className="subtitle">
@@ -28,30 +29,16 @@ function App() {
 
         <h2>Populært i dag</h2>
         <div className="productcard-grid">
-          <ProductCard
-            title="Strelitzia 'Nicolai"
-            imageUrl="plants.jpg"
-            price="150"
-            subtitle1="Lettstelt"
-          />
-          <ProductCard
-            title="Monstera"
-            imageUrl="plants.jpg"
-            price="1150"
-            subtitle1="Test"
-          />
-          <ProductCard
-            title="Monstera"
-            imageUrl="plants.jpg"
-            price="1150"
-            subtitle1="Test"
-          />
-          <ProductCard
-            title="Monstera"
-            imageUrl="plants.jpg"
-            price="1150"
-            subtitle1="Test"
-          />
+          {
+            planter.map((data, key) => {
+              return (
+                <ProductCard 
+                  key={data.id}
+                  id={data.id}
+                />
+              )
+            })
+          }
         </div>
         <div>
           <h2>Godt å vite</h2>

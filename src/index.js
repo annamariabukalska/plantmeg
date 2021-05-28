@@ -16,8 +16,8 @@ ReactDOM.render(
     <Switch>
       <Route path="/" component={App} exact />
       <Route path="/handlekurv" component={CartPage} />
-      <Route path="/produkt" component={ProductPage} />
       <Route path="/kategori" component={CategoryPage} />
+      <Route path="/produkt/:id" component={ProductPage} />
       <Route component={ErrorPage} />
     </Switch>
     <Footer />

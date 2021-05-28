@@ -1,4 +1,4 @@
-import SecondaryButton from "../../components/SecondaryButton/SeconadaryButton";
+import SecondaryButton from "../../components/SecondaryButton/SecondaryButton";
 import Header from "../../components/Header/Header";
 import ProductCard from "../../components/ProductCard/ProductCard";
 import "./CategoryPage.css";
@@ -18,19 +18,16 @@ function CategoryPage() {
       <SecondaryButton 
         title="Stiklinger fra potteplanter"/>
       </div>
-      <img className="img-category" src={"images/plante-category.png"} alt="plants" />
+      <img className="img-category" src={"/images/plante-category.png"} alt="plants" />
       <Header 
       title="Grønne planter"/>
-        <ProductCard />
+        <ProductCard id="monstera" />
       <Header 
       title="Blomstrende inneplanter"/>
-        <ProductCard />
       <Header 
         title="Buketter"/>
-        <ProductCard />
       <Header 
         title="Stiklinger fra potteplanter"/>
-      <ProductCard />
     </div>
   );
 }
