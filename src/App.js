@@ -4,6 +4,7 @@ import SecondaryButton from "./components/SecondaryButton/SecondaryButton";
 import ProductCard from "./components/ProductCard/ProductCard";
 import ArticleCard from "./components/ArticleCard/ArticleCard";
 import { planter } from "./planter";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
         <p className="subtitle">
           Vi har et stort utvalg av sesongens planter, bli inspirert av naturen og få rask levering 🏡
         </p>
-        <MainButton title="Se sesongens planter" />
+        <Link to="/nyheter">
+          <MainButton title="Se sesongens planter" />
+        </Link>
         </div>
       </div>
       <div className="content-inset">
@@ -27,7 +30,7 @@ function App() {
           <SecondaryButton title="Jord" to="/kategori" />
         </div>
 
-        <h2>Populært i dag</h2>
+        <h2 id="nyheter">Populært i dag</h2>
         <div className="productcard-grid">
           {
             planter.map((data, key) => {
@@ -40,7 +43,6 @@ function App() {
             })
           }
         </div>
-        <div>
           <h2>Godt å vite</h2>
           <div className="articlecard-grid">
             <ArticleCard
@@ -65,7 +67,6 @@ function App() {
               buttonTitle="Les mer ↗"
             />
           </div>
-        </div>
       </div>
     </main>
   );

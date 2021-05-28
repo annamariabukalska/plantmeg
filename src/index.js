@@ -9,6 +9,8 @@ import ErrorPage from "./pages/ErrorPage";
 import Footer from "./components/Footer/Footer";
 import ProductPage from "./pages/ProductPage/ProductPage";
 import CategoryPage from "./pages/CategoryPage/CategoryPage";
+import ArticlePage from "./pages/ArticlePage/ArticlePage";
+import NewsPage from "./pages/NewsPage/NewsPage";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -17,6 +19,8 @@ ReactDOM.render(
       <Route path="/" component={App} exact />
       <Route path="/handlekurv" component={CartPage} />
       <Route path="/kategori" component={CategoryPage} />
+      <Route path="/nyheter" component={NewsPage} />
+      <Route path="/tips" component={ArticlePage} />
       <Route path="/produkt/:id" component={ProductPage} />
       <Route component={ErrorPage} />
     </Switch>

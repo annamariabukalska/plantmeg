@@ -8,13 +8,13 @@ function NavBar() {
         <img src="/images/plantmeg-logo.png" alt="søke" className="logo" />
       </Link>
       <ul className="menu">
-        <Link to="/">
+        <Link to="/kategori">
           <li>Våre planter</li>
         </Link>
-        <Link to="/">
+        <Link to="/nyheter">
           <li>Nyheter</li>
         </Link>
-        <Link to="/">
+        <Link to="/tips">
           <li>Tips og råd</li>
         </Link>
         
