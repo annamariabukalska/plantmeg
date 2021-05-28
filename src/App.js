@@ -57,22 +57,25 @@ function App() {
           <h2>Godt å vite</h2>
           <div className="articlecard-grid">
             <ArticleCard
-              name="Hvordan vanne blomster?"
-              subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
+              name="Hvilke potter er best?"
+              subtitle="Det finnes mange forskjellige potter. Plantemagasinet viser deg hva du burde velge."
               imageUrl="potter.jpg"
-              link="https://www.youtube.com/"
+              link="https://www.plantemagasinet.no/post/hvilken-potte-skal-du-bruke"
+              buttonTitle="Les mer ↗"
             />
             <ArticleCard
               name="Hvordan vanne blomster?"
               subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
-              imageUrl="potter.jpg"
-              link="https://www.youtube.com/"
+              imageUrl="vanneblomster.jpg"
+              link="https://www.pickuplimes.com/video/houseplant-care-tips-for-beginners-78"
+              buttonTitle="Se video ↗"
             />
             <ArticleCard
-              name="Hvordan vanne blomster?"
-              subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
-              imageUrl="potter.jpg"
+              name="Den beste jord!"
+              subtitle="Lær hvordan man får næringsrik jord som plantene trives i."
+              imageUrl="jord.jpg"
               link="https://www.youtube.com/"
+              buttonTitle="Les mer ↗"
             />
           </div>
         </div>

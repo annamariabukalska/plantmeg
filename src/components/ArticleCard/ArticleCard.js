@@ -5,14 +5,13 @@ function ArticleCard(props) {
     <div className="articlecard">
       <img
         className="article-picture"
-        src="./images/article-img.jpg"
+        src={`./images/${props.imageUrl}`}
         alt={props.title}
       />
-      <h2>{props.title}</h2>
-      <p className="article-name">{props.name}</p>
+      <h3 className="article-title">{props.name}</h3>
       <p className="articlecard-subtitle">{props.subtitle}</p>
       <a href={props.link} target="_blank" rel="noreferrer">
-        <div className="video-button">Se video</div>
+        <div className="cta-button">{props.buttonTitle}</div>
       </a>
     </div>
   );
