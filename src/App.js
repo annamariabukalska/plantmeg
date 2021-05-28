@@ -20,11 +20,11 @@ function App() {
       </div>
       <div className="content-inset">
         <div className="categorybutton-grid">
-          <SecondaryButton title="Inneplanter" />
-          <SecondaryButton title="Uteplanter" />
-          <SecondaryButton title="Potter" />
-          <SecondaryButton title="Dyrke selv" />
-          <SecondaryButton title="Jord" />
+          <SecondaryButton title="Inneplanter" to="/kategori" />
+          <SecondaryButton title="Uteplanter" to="/kategori" />
+          <SecondaryButton title="Potter" to="/kategori" />
+          <SecondaryButton title="Dyrke selv" to="/kategori" />
+          <SecondaryButton title="Jord" to="/kategori" />
         </div>
 
         <h2>Populært i dag</h2>

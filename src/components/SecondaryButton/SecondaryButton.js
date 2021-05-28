@@ -3,7 +3,7 @@ import "./SecondaryButton.css";
 
 function SecondaryButton(props) {
   return (
-    <Link className="secondary-button" to="/kategori">
+    <Link className="secondary-button" to={props.to}>
       {props.title}
     </Link>
   );

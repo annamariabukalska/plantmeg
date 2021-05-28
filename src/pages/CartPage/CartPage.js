@@ -6,14 +6,10 @@ function CartPage() {
   return (
     <div class="content-inset">
       <h1>Handlekurv</h1>
-    <div>
-      <MainButton 
+    <MainButton 
       title="Fortsett"/>
-    </div>
-    <div className="empty-cartpage">
-      <SecondaryButton 
+    <SecondaryButton 
       title="Tøm handlekurven"/>
-    </div>
     </div>
   );
 }

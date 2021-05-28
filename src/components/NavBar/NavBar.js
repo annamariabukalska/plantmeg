@@ -20,9 +20,6 @@ function NavBar() {
           className="icons"
         />
       </Link>
-      <Link to="/">
-        <img src="/images/heart.png" alt="wish" className="icons" />
-      </Link>
       </div>
     </nav>
   );
