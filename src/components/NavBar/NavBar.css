@@ -1,16 +1,38 @@
 nav {
     background: #ffffff;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(3, auto);
     align-items: center;
     font-size: 1rem;
     margin: 0em 6em;
+}
 
+nav .menu {
+    list-style: none;
+    margin: 24px 0;
+    padding: 0;
+}
+
+nav .menu li {
+    display: inline;
+    margin-right: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+nav .menu a {
+    text-decoration: none;
 }
   
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
     nav {
       margin: 2em 1rem;
+      grid-template-columns: 100%;
+      text-align: center;
+    }
+
+    .search-box {
+        width: 80%;
     }
   }
 
@@ -27,6 +49,6 @@ nav {
 }
 .search-box {
     border: 1px solid var(--darkgreen);
-    padding: 6px;
+    padding: 10px 6px;
     border-radius: .4rem;;
 }
