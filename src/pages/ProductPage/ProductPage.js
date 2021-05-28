@@ -1,5 +1,6 @@
 import "./ProductPage.css";
 import Button from '../../components/Button/Button';
+import InfoBox from "../../components/InfoBox/InfoBox";
 
 
 function ProductPage() {
@@ -19,7 +20,9 @@ function ProductPage() {
       title="Legg til handlekurv"/>
       </div>
       </div>
+      <InfoBox />
     </div>
+    
   );
 }
 

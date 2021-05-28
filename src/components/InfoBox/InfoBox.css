@@ -1,0 +1,8 @@
+.info-ramme {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.info-kategori {
+    justify-self: start;
+}
