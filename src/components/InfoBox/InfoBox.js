@@ -4,28 +4,28 @@ function InfoBox() {
   return (
     <div>
         <h2>Informasjon</h2>
-        <div  className="info-ramme">
+        <div className="info-ramme">
         <div className="info-kategori">
         <img src="images/heart.png" alt="wish" className="icons" />
-        <p>Lysbehov</p>
+        <h3>Lysbehov</h3>
         <p>Sol-Halvskygge</p>
         </div>
 
         <div className="info-kategori">
         <img src="images/heart.png" alt="wish" className="icons" />
-        <p>Fullvoksen</p>
+        <h3>Fullvoksen</h3>
         <p>Sol-Halvskygge</p>
         </div>
 
         <div className="info-kategori">
         <img src="images/heart.png" alt="wish" className="icons" />
-        <p>Vann</p>
+        <h3>Vann</h3>
         <p>Sol-Halvskygge</p>
         </div>
 
         <div className="info-kategori">
         <img src="images/heart.png" alt="wish" className="icons" />
-        <p>Gjødsel</p>
+        <h3>Gjødsel</h3>
         <p>Sol-Halvskygge</p>
         </div>
         </div>

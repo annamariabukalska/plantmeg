@@ -65,7 +65,7 @@ function App() {
             />
             <ArticleCard
               name="Hvordan vanne blomster?"
-              subtitle="Er du nysjerig på hvordan skal man vanne blomster?"
+              subtitle="Er du nysjerig på hvordan skal man vanne blomster? Se Pick Up Limes:"
               imageUrl="vanneblomster.jpg"
               link="https://www.pickuplimes.com/video/houseplant-care-tips-for-beginners-78"
               buttonTitle="Se video ↗"

@@ -5,7 +5,7 @@ import "./CategoryPage.css";
 
 function CategoryPage() {
   return (
-    <div>
+    <div className="content-inset">
       <h1>Inneplanter</h1>
       <h3>Inneplanter skaper et levende hjem og gir bedre luft. Hos oss finner du alltid herlig blomstrende og friske grønne planter i forskjellige former og størrelser som passer i alle hjem. Med levende planter i hjemmet får du et renere og friskere innemiljø.</h3>
       <div className="categorybutton-grid">

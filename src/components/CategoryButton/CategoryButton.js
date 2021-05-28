@@ -3,7 +3,7 @@ import "./CategoryButton.css";
 
 function CategoryButton(props) {
   return (
-    <Link className="product" to="/produkt">
+    <Link className="product" to="/kategori">
       {props.title}
     </Link>
   );

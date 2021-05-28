@@ -1,22 +1,29 @@
 .plante-img {
-    width: 509px;
-    height: 669px;
+  width: 509px;
+  height: 669px;
 }
 
 .product-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    column-gap: .3em;
-    row-gap: .5em;
-    align-items: center;
-    font-size: 1rem;
-    margin-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap: .3em;
+  row-gap: .5em;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+}
+
+.added-to-cart {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.2s all;
 }
 
 @media screen and (max-width: 700px) {
-    .plante-img {
-      width: 267px;
-      height: 330px;
-    }
+  .plante-img {
+    width: 267px;
+    height: 330px;
   }
-
+}
