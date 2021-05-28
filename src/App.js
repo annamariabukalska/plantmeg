@@ -3,7 +3,6 @@ import Button from "./components/Button/Button";
 import CategoryButton from "./components/CategoryButton/CategoryButton";
 import ProductCard from "./components/ProductCard/ProductCard";
 import ArticleCard from "./components/ArticleCard/ArticleCard";
-import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -77,7 +76,6 @@ function App() {
             />
           </div>
         </div>
-        <Link to={"/kategori"}>Test: Link til kategori</Link>
       </div>
     </main>
   );
