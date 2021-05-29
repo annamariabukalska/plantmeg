@@ -5,7 +5,7 @@ export const planter = [
         imageUrl: "plante-monstera.jpg",
         price: 1150,
         shortDescription: "Medium",
-        description: "Monstera er mest klasiske plante. Den har fått sin renesanse. Unngås direkte lys og ikke overvannes.",
+        description: "Monstera er vår mest klasiske plante. Den har fått sin renesanse. Unngå direkte lys og må ikke overvannes.",
         size: 19,
         latinName: "Monstera",
         karegori: "inneplanter"
@@ -26,7 +26,7 @@ export const planter = [
         imageUrl: "plante-aloe-vera.jpg",
         price: 169,
         shortDescription: "Lettstelt",
-        description: "Denne planten har tykke grønne blader. Planeter er populær som den verdens eldste medisinplanter. Den passer perfekt som velvære og helse.",
+        description: "Denne planten har tykke grønne blader. Planeter er populær som den verdens eldste medisinplanter. Den passer perfekt til velvære og helse.",
         size: 20,
         latinName: "Aloe vera",
     },
@@ -56,7 +56,7 @@ export const planter = [
         imageUrl: "plante-calathea.jpg",
         price: 629,
         shortDescription: "Vanskelig",
-        description: "Plante som man aldri lei. Den passer perfekt for viner ettersom den har vakre blader som lyser opp vinterstid.",
+        description: "Plante som man aldri blir lei av. Den passer perfekt for vinter ettersom den har vakre blader som lyser opp vinterstiden.",
         size: 80,
         latinName: "Calathea Medallion",
     },
@@ -66,7 +66,7 @@ export const planter = [
         imageUrl: "plante-syngonium.jpg",
         price: 99,
         shortDescription: "Medium",
-        description: "Når de første solstråler lyser får den vakre blomster som holder hele sommer og høst. Gjerne tørkes av støv iblant.",
+        description: "Når de første solstråler lyser får den vakre blomster som holder hele sommer og høst. Kan gjerne tørkes av støv iblant.",
         size: 60,
         latinName: "Syngonium",
     }, 
@@ -76,10 +76,27 @@ export const planter = [
         imageUrl: "plante-bispelue-kaktus.jpg",
         price: 150,
         shortDescription: "Vanskelig",
-        description: "Mest morsomste kaktus av kaktusfamilie. Blomster på toppen gjør denne planten unik.",
+        description: "Mest morsomste kaktus i kaktusfamilien. Blomster på toppen gjør denne planten unik.",
         size: 40,
         latinName: "Astrophytum myriostigma",
     },
-    
-
+    {
+        id: "saks",
+        title:"Blomstersaks",
+        imageUrl: "plante-blomstersaks.jpg",
+        price: 100,
+        marke: "Medium",
+        description: "God og mektig saks som egner seg til å klippe stilker.",
+        farge: "grå",
+        kategori: "verktoy"
+    },
+    {
+        id: "jord",
+        title:"Plantejord",
+        imageUrl: "produkt-jord.jpg",
+        price: 150,
+        merke: "Anglamark",
+        description: "Meget god plantejord til planting av alle typer planter.",
+        kategori: "jord"
+    },
 ];
