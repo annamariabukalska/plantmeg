@@ -8,7 +8,7 @@ export const planter = [
         description: "Monstera er vår mest klasiske plante. Den har fått sin renesanse. Unngå direkte lys og må ikke overvannes.",
         size: 19,
         latinName: "Monstera",
-        karegori: "inneplanter"
+        kategori: "inneplanter"
     },
     {
         id: "fiolinfiken",
