@@ -23,7 +23,7 @@ function ArticlePage() {
               name="Den beste jord!"
               subtitle="Lær hvordan man får næringsrik jord som plantene trives i."
               imageUrl="jord.jpg"
-              link="https://www.youtube.com/"
+              link="https://www.plantemagasinet.no/post/hvorfor-bor-planter-pottes-om"
               buttonTitle="Les mer ↗"
             />
           </div>
