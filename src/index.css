@@ -2,9 +2,10 @@
   --lightgreen: #EEF0ED;
   --darkgreen: #2E3E39;
   --paletsgreen: #E8F2EA;
-  --gray: #828282;
+  --gray: #807d7d;
   --black: #161616;
-  --lightred: #F5DCD7
+  --lightred: #F5DCD7;
+  --white: #fafafa;
 }
 
 .text-title {
