@@ -1,5 +1,5 @@
 nav {
-    background: #ffffff;
+    background: var(--white);
     display: grid;
     grid-template-columns: repeat(3, auto);
     align-items: center;
@@ -17,7 +17,7 @@ nav .menu li {
     display: inline;
     margin-right: 18px;
     font-weight: bold;
-    color: black;
+    color: var(--black);
 }
 
 nav .menu a {
