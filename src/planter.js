@@ -80,6 +80,16 @@ export const planter = [
         size: 40,
         latinName: "Astrophytum myriostigma",
     },
+       {
+        id: "bispelue",
+        title:"Bispelue kaktus",
+        imageUrl: "plante-bispelue-kaktus.jpg",
+        price: 150,
+        shortDescription: "Vanskelig",
+        description: "Mest morsomste kaktus i kaktusfamilien. Blomster på toppen gjør denne planten unik.",
+        size: 40,
+        latinName: "Astrophytum myriostigma",
+    },
     {
         id: "saks",
         title:"Blomstersaks",

@@ -4,8 +4,8 @@
     color: var(--lightgreen);
     text-decoration: none;
     padding: 20px 30px;
+    font-size: 12pt;
     cursor: pointer;
-    border: none;
     font-family: 'Mulish', sans-serif;
 }
 .main-button:hover {

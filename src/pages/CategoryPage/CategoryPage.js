@@ -24,10 +24,13 @@ function CategoryPage() {
         <ProductCard id="monstera" />
       <Header 
       title="Blomstrende inneplanter"/>
+       <ProductCard id="fiolinfiken" />
       <Header 
         title="Buketter"/>
+         <ProductCard id="syngonium" />
       <Header 
-        title="Stiklinger fra potteplanter"/>
+        title="Tilbehør"/>
+        <ProductCard id="jord" />
     </div>
   );
 }

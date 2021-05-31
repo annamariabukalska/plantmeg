@@ -1,12 +1,14 @@
-.secondary-button{
+.secondary-button {
     background: var(--lightgreen);
     border-radius: 20px;
     color: var(--darkgreen);
     text-decoration: none;
     padding: 10px 24px;
     cursor: pointer;
+    font-family: 'Mulish', sans-serif;
 }
-.secondary-button:hover{
+
+.secondary-button:hover {
     background: var(--darkgreen);
     color: var(--lightgreen);
 }
