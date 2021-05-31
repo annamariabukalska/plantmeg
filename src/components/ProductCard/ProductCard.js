@@ -9,7 +9,7 @@ function ProductCard(props) {
   return (
     <Link to={`/produkt/${product.id}`} style={{ color: 'inherit', textDecoration: "none" }}>
       <div className="productcard">
-        <img className="product-picture" src={`./images/${product.imageUrl}`} alt={product.title} />
+        <img className="product-picture" src={`/images/${product.imageUrl}`} alt={product.title} />
         <h2>{product.title}</h2>
         <p className="product-price">{product.price},-</p>
         <p className="product-subtitle">{product.shortDescription}</p>
